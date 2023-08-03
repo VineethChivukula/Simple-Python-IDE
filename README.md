@@ -24,4 +24,5 @@ Implementation Details:
 - The CSS styles are customized to create a modern and visually appealing user interface, incorporating responsive design principles for compatibility across multiple screen sizes.
 
 Conclusion:
+
 The Simple Python IDE project is an innovative web-based platform that offers an intuitive and visually stunning solution for executing Python code. By providing an accessible and user-friendly IDE through the browser, it empowers beginners, learners, and Python enthusiasts to explore Python programming without the need for complex installations. The project showcases the power of web technologies in building interactive coding environments and serves as a valuable tool for education, prototyping, and quick Python code execution on the go.
