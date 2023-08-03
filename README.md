@@ -19,8 +19,8 @@ Key Features:
 
 Implementation Details:
 - The server-side component is built using Node.js and the Express.js framework, facilitating easy handling of HTTP requests and communication with the Python interpreter.
-- The fetch API is used to make HTTP requests to the server asynchronously.
 - The Python code execution is managed using the `child_process` module in Node.js, allowing the server to spawn child processes for Python code execution and capturing standard input, output, and error streams.
+- The fetch API is used to make HTTP requests to the server asynchronously.
 - The CSS styles are customized to create a modern and visually appealing user interface, incorporating responsive design principles for compatibility across multiple screen sizes.
 
 Conclusion:
