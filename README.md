@@ -27,6 +27,6 @@ Conclusion:
 
 The Simple Python IDE project is an innovative web-based platform that offers an intuitive and visually stunning solution for executing Python code. By providing an accessible and user-friendly IDE through the browser, it empowers beginners, learners, and Python enthusiasts to explore Python programming without the need for complex installations. The project showcases the power of web technologies in building interactive coding environments and serves as a valuable tool for education, prototyping, and quick Python code execution on the go.
 
-![temp3](https://github.com/VineethChivukula/Simple-Python-IDE/assets/66107997/a9f48b11-fe66-4646-997f-c5da86ac5aa0)
-![temp2](https://github.com/VineethChivukula/Simple-Python-IDE/assets/66107997/9a231912-07f1-48b2-aca0-c574df822cbf)
 ![temp1](https://github.com/VineethChivukula/Simple-Python-IDE/assets/66107997/c20aeb18-599c-45d0-89b0-658ba5de65de)
+![temp2](https://github.com/VineethChivukula/Simple-Python-IDE/assets/66107997/9a231912-07f1-48b2-aca0-c574df822cbf)
+![temp3](https://github.com/VineethChivukula/Simple-Python-IDE/assets/66107997/a9f48b11-fe66-4646-997f-c5da86ac5aa0)
