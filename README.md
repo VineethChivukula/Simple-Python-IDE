@@ -2,9 +2,11 @@
 Simple Python IDE - A Web-based Python Code Execution Platform
 
 Abstract:
+
 The Simple Python IDE project is a web-based integrated development environment (IDE) that empowers users to write and execute Python code in real-time through an intuitive graphical user interface. The platform enables users to seamlessly write Python programs, provide input to these programs, and view the output without the need for installing Python or any specific development environment on their local machines. The project leverages the power of modern web technologies to deliver a user-friendly and visually appealing interface for executing Python code.
 
 Introduction:
+
 Python is a popular and versatile programming language, widely used for web development, data analysis, artificial intelligence, and more. Accessing Python's capabilities often requires a locally installed Python interpreter and development environment, which can be a barrier for beginners and those who need quick and easy access to run Python code. The Simple Python IDE project aims to address this challenge by providing an online platform that facilitates code execution and output visualization without any installation requirements.
 
 Key Features:
