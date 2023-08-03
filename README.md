@@ -11,7 +11,7 @@ Python is a popular and versatile programming language, widely used for web deve
 
 Key Features:
 1. Web-based Interface: The IDE offers a web-based interface accessible through popular web browsers, eliminating the need for installing Python or any IDE on the user's system.
-2. Code Input: Users can type, edit, and manipulate Python code in a feature-rich textarea that supports syntax highlighting and indentation assistance.
+2. Code Input: Users can type, edit, and manipulate Python code in a feature-rich textarea.
 3. Input Provision: The IDE allows users to provide input to their Python programs via a text input field, facilitating interactive program execution.
 4. Real-time Execution: Python code is executed in real-time on the server, and the output is displayed promptly within the user interface.
 5. Error Handling: The IDE incorporates robust error handling mechanisms to capture and display Python execution errors, aiding users in debugging their code.
