@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Python IDE</title>
+    <link rel="stylesheet" href="style.css">
+</head>    
+<body>
+    <h1>Simple Python IDE</h1>
+    <textarea id="code" rows="10" cols="50" placeholder="Type your Python code here..." onkeydown="handleTabKey(event)"></textarea>
+    <br>
+    <input type="text" id="input" placeholder="Input for the program...">
+    <button onclick="runCode()">Run</button>
+    <div id="output"></div>
+
+    <script>
+        function runCode() {
+            const code = document.getElementById('code').value;
+        const input = document.getElementById('input').value;
+
+        // Send the code and input to the backend
+        fetch('/execute', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ code, input })
+        })
+        .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    document.getElementById('output').innerText = `Error: ${data.error}`;
+                } else {
+                    document.getElementById('output').innerText = data.output;
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        function handleTabKey(event) {
+            if (event.key === "Tab") {
+                event.preventDefault();
+                const textarea = event.target;
+                const start = textarea.selectionStart;
+                const end = textarea.selectionEnd;
+                textarea.value = textarea.value.substring(0, start) + "\t" + textarea.value.substring(end);
+                textarea.selectionStart = textarea.selectionEnd = start + 1; // Move cursor after the inserted tab
+            }
+        }
+    </script>
+</body>
+</html>
